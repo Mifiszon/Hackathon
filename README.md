@@ -1,46 +1,53 @@
 # Małopolskie Railways – Route Monitor
 
-A web application that allows users to view Małopolskie Railways routes and stops on an interactive map.  
-Users can select a specific railway line from a set of tiles and view its detailed stop schedule.
+A web application that displays train routes and stops of Małopolskie Railways on an interactive map.  
+The system consists of a **React.js frontend** and a **Python backend**, all containerized with **Docker**.
 
 ## Features
 
-- **Interactive map** with all stops marked.
-- **Line selection via tiles** – each railway line is displayed as a convenient tile.
-- **Detailed stop schedules** available for every line.
-- **Responsive design** – works seamlessly on both mobile and desktop devices.
-- **User-friendly interface** with simple navigation.
+- **Interactive map** with marked stops.
+- **Line selection via tiles** – each railway line is available as a separate tile.
+- **Detailed timetable** for each line with its stops and route.
+- **Python backend** with REST API serving train line and stop data.
+- **Dockerized setup** – easy deployment and development environment.
+- **Responsive design** – optimized for both mobile and desktop devices.
 
-## Technologies
+## Tech Stack
 
-- **React.js** – frontend framework
-- **React Leaflet** – map handling
-- **Tailwind CSS** – styling
-- **JavaScript (ES6)** – application logic
-- **OpenStreetMap** – map data provider
+- **Frontend:** React.js, React Leaflet, Tailwind CSS, JavaScript
+- **Backend:** Python, REST API
+- **Database:** PostgreSQL
+- **Containerization:** Docker, Docker Compose
 
 ## Project Structure
 
-- `src/components/Map.js` – map component displaying all stops.
-- `src/components/Navbar.js` – application navigation bar.
-- `src/data/stop.js` – dataset containing stops.
-- `src/assets/` – graphic assets (logo, marker icons, background).
+- `frontend/src/components/Map.js` – map component with all stops.
+- `frontend/src/components/Navbar.js` – navigation bar.
+- `frontend/src/data/stop.js` – stop data definitions.
+- `backend/app/` – backend logic and API endpoints.
+- `docker-compose.yml` – Docker Compose setup for both frontend and backend.
 
-## Installation and Setup
+## Installation & Running
 
-1. **Clone the repository**:
-   ```bash
+Clone the repository and start the application using Docker Compose:
+
+```bash
    git clone https://github.com/your-repo/route-monitor.git
-   Navigate to the project directory:
    cd route-monitor
-   Install dependencies:
-   npm install
-   Run the application:
-   npm start
-   Open the app in your browser at:
-   http://localhost:3000
+   docker-compose up --build
+```
 
-## Future Development
+## The application will be available at:
+
+Frontend: http://localhost:3000
+
+Backend API: http://localhost:8000
+
+
+## Future Plans
 - Real-time train position tracking.
-- Route filtering by time and station.
+- Filtering routes by time and stations.
 - Delay notifications.
+
+## Authors
+Developed as part of a web technology learning project – Małopolskie Railways – Route Monitor.
