@@ -1,6 +1,6 @@
 # Koleje Małopolskie – Route Monitor
 
-A web application that displays train routes and stops of Małopolskie Railways on an interactive map.  
+A web application that displays train routes and stops of Koleje Małopolskie on an interactive map.  
 The system consists of a **React.js frontend** and a **Python backend**, all containerized with **Docker**.
 
 ## Features
