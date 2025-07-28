@@ -50,4 +50,4 @@ Backend API: http://localhost:8000
 - Delay notifications.
 
 ## Authors
-Developed as part of a web technology learning project – Małopolskie Railways – Route Monitor.
+Developed as part of a web technology learning project – Koleje Małopolskie – Route Monitor.
