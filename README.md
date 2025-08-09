@@ -50,5 +50,6 @@ Backend API: http://localhost:8000
 - Delay notifications.
 
 ## Authors
-Developed as part of a hackathon project – Koleje Małopolskie – Route Monitor.
+Developed as part of a hackathon "Kościuszkon" 2024 project – Koleje Małopolskie – Route Monitor.
+
 
