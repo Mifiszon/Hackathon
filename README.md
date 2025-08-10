@@ -14,6 +14,7 @@ The system consists of a **React.js frontend** and a **Python backend**, all con
 
 ## Screenshots
 - 
+-
 
 ## Tech Stack
 
@@ -54,6 +55,7 @@ Backend API: http://localhost:8000
 
 ## Authors
 Developed as part of a hackathon "Kościuszkon" 2024 project – Koleje Małopolskie – Route Monitor.
+
 
 
 
